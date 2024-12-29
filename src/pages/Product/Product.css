@@ -1,0 +1,91 @@
+.product-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-page img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.product-page p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.product-page .discount {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.product-page .discounted-price {
+  color: #39c72c; 
+  font-weight: bold;
+}
+
+.product-page .promotion {
+  color: #007bff;
+  font-weight: bold;
+}
+
+
+
+.recommended-products {
+  margin-top: 0;
+}
+
+.recommended-products h2 {
+  margin-bottom: 20px;
+}
+
+.recommended-products .products {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: -30px;
+}
+
+
+.OP{
+  display: grid;
+    justify-content: start;
+    justify-items: start;
+   
+    width: 51%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+.OP p{
+  font-size: 35px ;
+}
+
+.product-page button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  transition: .5s all ;
+  padding: 10px 20px;
+  width: 300px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 25px;
+ 
+}
+
+.product-page button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.recommended-products button{
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+}

@@ -1,0 +1,19 @@
+/* Основной контейнер */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Минимальная высота — весь экран */
+  }
+  
+  /* Основной контент */
+  .main-content {
+    flex: 1; /* Растягиваем контент, чтобы footer был внизу */
+  }
+  
+  /* Подвал */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }

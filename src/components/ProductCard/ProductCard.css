@@ -1,0 +1,83 @@
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 25%;
+  margin-top: 60px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.product-card h3 {
+  margin: 0 0 10px;
+}
+
+.product-card button {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  transition: 0.5s;
+  border: 1px solid #000000;
+}
+
+.product-card button:hover {
+  color: #ffffff;
+  background-color: #333;
+}
+
+.added-to-cart {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  transition: 0.5s all;
+}
+
+.added-to-cart:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-card h4 {
+  color: #333;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.discounted-price {
+  color: #28a745; /* Зелёный цвет для цены со скидкой */
+  font-weight: bold;
+}
+
+.maga{
+  
+  height: 400px;
+}

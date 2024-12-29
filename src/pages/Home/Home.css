@@ -1,0 +1,146 @@
+*{
+  text-decoration: none;
+}
+.home {
+  padding: 20px;
+}
+
+.home h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.category {
+  margin-bottom: 40px;
+  display: flex;
+ margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+.category_opis{
+  width: 40%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.category h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.products {
+  display: flex;
+  
+  gap: 20px;
+  width: 60%;
+  
+}
+
+.category_opis h3{
+  font-size: 56px;
+  
+}
+.category_opis p{
+  font-size: 30px;
+  width:750px;
+  margin-top: -20px;
+}
+.category_opis a{
+  margin-top: -auto;
+}
+
+.OPIS{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  margin-top: 100px;
+  
+  display: flex;
+}
+.OPIS_LEFT{
+  width: 40%;
+  height: 600px;
+ 
+  
+}
+.OPIS_LEFT h2{
+  font-size: 50px;
+  margin-top: 125px;
+  line-height: 100px;
+}
+
+.OPIS_LEFT h5{
+  font-size: 25px;
+  margin-top: -5px;
+  font-weight: 400px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.OPIS_RR {
+  width: 60%; /* Ширина родительского блока */
+  position: relative; /* Делаем родительский блок относительным для позиционирования */
+  overflow: hidden; /* Чтобы изображение не выходило за границы */
+}
+
+.OPIS_RR img {
+  position: absolute; /* Абсолютное позиционирование внутри родительского блока */
+  right: 0; /* Прижимаем к правому краю */
+  top: 150px; /* Прижимаем к верхнему краю (можно изменить, если нужно) */
+  max-width: 100%; /* Ограничиваем ширину изображения шириной родительского блока */
+  height: auto; /* Сохраняем пропорции изображения */
+  width: 1000px;
+}
+
+
+.CAT_LI{
+  display: inline;
+  text-decoration: none;
+  
+}
+
+.OPIS_LEFT a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+.CAT_LI {
+  
+}
+
+.CAT_LI a {
+  display: inline-block; /* Делаем ссылку блочным элементом */
+  padding: 15px 100px; /* Внутренние отступы (верх/низ и лево/право) */
+  background-color: #000000; /* Цвет фона кнопки */
+  color: white; /* Цвет текста */
+  border-radius: 10px; /* Закруглённые углы */
+  text-align: center; /* Выравнивание текста по центру */
+  font-size: 29px; /* Размер текста */
+  transition: background-color 0.3s ease; /* Плавный переход для hover-эффекта */
+  margin-top: 50px;
+}
+
+.CAT_LI a:hover {
+  background-color: #747474; /* Цвет фона при наведении */
+}
+
+
+@media (max-width: 2178px) {
+  .category_opis p{
+    font-size: 20px;
+    width:600px;
+    margin-top: -20px;
+  }
+  .category_opis h3{
+    font-size: 40px;
+    margin-top: 100px;
+  }
+  .AxmedLox{
+    font-size: 30px;
+  }
+}
